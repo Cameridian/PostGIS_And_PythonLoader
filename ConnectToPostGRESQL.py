@@ -2,7 +2,7 @@
 
 import psycopg2
 #connects to localhost 5432
-conn = psycopg2.connect("dbname=test user=postgres password=ducati009 host=localhost")
+conn = psycopg2.connect("dbname=test user=postgres password=****** host=localhost")
 cur = conn.cursor()
 
 #Print existing data to console
